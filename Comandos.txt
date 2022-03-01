@@ -15,8 +15,12 @@ Ex003
        // Number (n) real e inteiro
        var soma = n1 + n2;
        window.alert('A soma dos numeros é ' + soma);//concatenação
+       window.alert(`A soma dos numeros é ${soma}`);//Template string obs: entre `crazes`
        // (number + number) para adição
        // (string + string) para concatenação
        // window.alert('A soma dos numeros é ' + String(soma));//de number para string
-
-          
+       
+       Var s = "Java Script"
+       s.length // quantos caracteres a string tem
+       s.toUpperCase() // tudo para 'MAIUSCULAS'
+       s.toLowerCase() // tudo para 'minuscula'   
