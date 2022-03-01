@@ -17,5 +17,6 @@ Ex003
        window.alert('A soma dos numeros é ' + soma);//concatenação
        // (number + number) para adição
        // (string + string) para concatenação
+       // window.alert('A soma dos numeros é ' + String(soma));//de number para string
 
           
