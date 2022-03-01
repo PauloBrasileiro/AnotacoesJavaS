@@ -10,7 +10,7 @@ Ex001
 Ex003
      var n1 = Number(window.prompt("Digite um numero"));
        var n2 = Number(window.prompt("Digite outro numero"));
-       // number.parseInt tanto number parseFloat, 
+       // number.parseInt tanto number.parseFloat, 
        //é para a converçao de string para number
        // Number (n) real e inteiro
        var soma = n1 + n2;
@@ -23,4 +23,35 @@ Ex003
        Var s = "Java Script"
        s.length // quantos caracteres a string tem
        s.toUpperCase() // tudo para 'MAIUSCULAS'
-       s.toLowerCase() // tudo para 'minuscula'   
+       s.toLowerCase() // tudo para 'minuscula'
+
+       var nome = window.prompt("Qual é o seu nome?");
+        document.write(`Ola ${nome}, Seu nome tem  ${nome.length} letras`)
+       // Aparece na pagina o numero de letras do nome
+
+      document.write(`Ola <strong>${nome}</strong>!, Seu nome tem  ${nome.length} letras,<br/>`);
+     // <strong> PALAVRA </strong>! fica em negrito a palavra
+     // <br/> quebra para a linha de baixo
+     document.write(`Seu nome em maiusculo é ${nome.toUpperCase()}`)
+
+       var n1 = 1545.5
+       n1.toFixed(2)
+       '1545.50'
+       n1.toFixed(2).replace(".",",")
+        '1545,50'
+        // toFixed() acrescenta casa decimal
+        // replace troca uma por outra ("","")
+        n1.toLocaleString("pt-br",{style:"currency", currency: "BRL"})
+        'R$ 1.545,50' 
+        // tranforma em real (dinheiro)
+
+       
+
+
+
+
+
+
+
+
+   
