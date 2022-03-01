@@ -1,1 +1,6 @@
-
+Ex001     
+        window.alert("Alerta de mensagem");//alerta de mensagem
+        window.confirm("Esta gostando de Java script?");//janela com botão ok
+        window.prompt("Qual é seu nome?"); //vai perguntar o nome
+        
+        
