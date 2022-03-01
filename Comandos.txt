@@ -3,4 +3,10 @@ Ex001
         window.confirm("Esta gostando de Java script?");//janela com botão ok
         window.prompt("Qual é seu nome?"); //vai perguntar o nome
         
-        
+ Ex002 
+       var nome = window.prompt("Qual é seu nome?");//variável de nome
+       window.alert('É um grande prazer te conhecer, ' + nome + '!');// concatenação
+      
+
+
+          
