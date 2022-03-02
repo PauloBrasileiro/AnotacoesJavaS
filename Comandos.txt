@@ -59,5 +59,33 @@ Ex003
         
         ternario (teste "?" true ":" false)
 
+        Dom 
+        possui uma arvore hierarquica(foto esta na pasta)
+        
+        Para navegar por elemneto
+        MARCA = getElementsbytagname()
+        ID = getElementbyid()
+        NOME = etElementsbyname()
+        CLASSE = etElementsbyClassname()
+        SELETOR = querySeletor
+
+
+        /* var d = window.document.getElementById("msg")
+        d.style.color = "white"
+        p1.style.color = "black"
+         d.style.background = "green" 
+        d.innerText = "estou aguardando"
+
+        var d = window.document.getElementsByName("msg")[0]
+        d.style.background = "green"
+        d.innerText = "Calmou..."*/
+
+        pelo class é a mesma coisa
+        
+        seletor voce seleciona o a tag e o id ou class, id é #, e class .
+
+        var d = window.document.querySelector('div#msg');
+        d.style.background="green";
+        
 
    
