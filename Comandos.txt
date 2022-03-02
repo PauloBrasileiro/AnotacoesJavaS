@@ -46,12 +46,18 @@ Ex003
         // tranforma em real (dinheiro)
 
        
+        comando <center> centraliza a mensagem no html
 
+        operadores
+        
+        simplificar somas de variantes, +=,-=,/=,%=(% é o resto),*=,**=
+        para adicionar 1 ou subtrair 1 é a variante ++ ou --
 
+        === tres iguais significa identico, 5(number) == '5'(string) -> True, mas 5 === 5 -> false
 
-
-
-
+        && é conjunção, "E"; ! é negação,|| é disjunção,"OU"
+        
+        ternario (teste "?" true ":" false)
 
 
    
