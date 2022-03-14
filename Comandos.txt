@@ -125,7 +125,17 @@ Ex003
         addEventListener prasta atenção em um evento
 
 
-
-
+        //para guardar o nome 
+             
+                const btn = document.getElementById("send");
+                  
+                  btn.addEventListener("click",function(e){
+                      e.preventDefault();
+    
+                      const name = document.querySelector("#nome");
+                      const value = name.value;
+                      console.log(value);
+                      //Esse esquema é para guardar o nome no formulario
+                      //com botao e input
 
 
