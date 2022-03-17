@@ -168,4 +168,113 @@ Ex003
                          default
                              Break
 
+			
+		  Fazer comentario html
+
+	<!--Input para colocar nome e bota para enviar nome-->
+
+			CSS
+
+ 	body{
+		background:rgb(67, 142, 255) ;
+		font: normal 20pt arial;
+		}
+
+	header{
+    		color: white;
+    		text-align: center;
+    		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.26);/*coloca sombra no texto*/
+		/*text-decoration-line:underline;,  coloca uma linha embaixo do texto*/
+
+		}
+
+	section{
+    		background: white;
+    		border-radius: 10px; /*É para arredondar as bordas*/
+    		padding: 15px; /*da um espaço dentro*/
+    		width: 500px; /*largura do box*/
+    		height: 320px;
+    		margin: auto;/*coloca o box no centro da pagina*/
+    		box-shadow:4px 4px 10px rgba(0, 0, 0, 0.411) ;
+		/*Para criar uma sombra mo box, 1ºN lateral,2ºN vvertical, 3ºN espalhamento e a cor */
+    
+		}
+
+	div{
+    		text-align: center;
+    		padding: 8px;
+		}
+
+	footer{
+    		color: white;
+    		text-align: center;
+    		font-style: italic;
+    		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.26);
+		}
+
+		JAVA SCRIPT
+
+function carregar(){
+    var msg = window.document.getElementById("msg")
+    //var foto = window.document.getElementById("foto")
+    var img = window.document.getElementById("imagem")
+    var data = new Date()
+    var hora = data.getHours()//para monstrar a hora atual
+    //var hora = 10
+        msg.innerHTML=`Agora são ${hora} horas`
+if(hora >= 0 && hora <12){
+    //BOM DIA
+    document.body.style.background = '#cbd8e0'//serve para trocar a cor de fundo da condição
+    img.src="manha.png"
+}
+else if(hora >=12 && hora <=18){
+    //BOA TARDE
+    document.body.style.background = '#545436'
+    img.src = "tarde.png"
+}
+else{
+    //BOA NOITE
+    document.body.style.background = '#502d4b'
+    img.src = "noite.png" // serve para colocar a foto na condição
+}
+}
+
+
+    		HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="estilo.css"><!--Serve para criar uma arquivo que esta linkado com o programa-->
+</head>
+<body onload="carregar()"> <!--Seve para atualizar na hora que carregar-->
+    <header><!--Cabeçalho-->
+        <h1>Hora do dia</h1>
+    </header>
+    <section>
+        <div id = "msg">
+            Aqui vai aparecer a mensagem...
+        </div>
+        <div id = "foto">
+                <img id = "imagem" src="manha.png" alt="Foto do dia"  >
+        </div>
+    </section>
+    <footer> <!--Rodapé-->
+        <p>&copy; Paulo Brasileiro</p><!--&copy; coloca a marca da agua-->
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+			
+
+				
+
+
 
